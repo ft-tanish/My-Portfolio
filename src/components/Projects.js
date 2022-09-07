@@ -38,11 +38,13 @@ export const Projects = () => {
       imgUrl: portfolio,
     },
     {
+      url: "https://tanish.netlify.app/",
       title: "My Portfolio",
       description: "Working profession Portfolio",
       imgUrl: myportfolio,
     },
     {
+      url: "https://uno-online-multiplayer.herokuapp.com/",
       title: "UNO Game",
       description: "Multiplayer UNO game for 2 players",
       imgUrl: uno,
