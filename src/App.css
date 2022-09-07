@@ -471,6 +471,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
+.project a{
+  color: #fff;
+}
+
+.project a:hover{
+  color: yellow;
+}
+
 
 /************ Footer Css ************/
 .footer {
