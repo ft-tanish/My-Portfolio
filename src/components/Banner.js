@@ -15,14 +15,6 @@ export const Banner = () => {
   const toRotate = [ "Software Developer", "Web Developer", "UI/UX Developer" ];
   const period = 2000;
 
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => { clearInterval(ticker) };
-  }, [text])
-
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
@@ -47,6 +39,15 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
+
+    return () => { clearInterval(ticker) };
+  }, [text, delta])
+
+ console.log(index);
 
   return (
     <section className="banner" id="home">
