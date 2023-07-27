@@ -59,9 +59,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Tanish`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Developer", "Web Developer", "UI/UX Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Detail-oriented individual with a B.Tech in Software Engineering, looking for a software developer
-position in a fast-growing company to utilize my technical skills and working knowledge of software
-applications, development and design.
+                  <p>Innovative Frontend Developer with a true passion for creating captivating web experiences from scratch. With a successful track record, I have made
+waves in the industry and constantly seek new projects to expand my expertise. My insatiable curiosity and dedication to excellence make me a
+valuable asset in the world of web development. I am ready to take on new challenges and make a lasting impact in this dynamic field.
 </p>
                   <a href={resume} download="Tanish_Resume.pdf">
                   <button>Download Resume <ArrowRightCircle size={25} /></button>
